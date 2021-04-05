@@ -48,3 +48,7 @@ body{
 .nav-link:hover{
     color:white;
 }
+
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+}
