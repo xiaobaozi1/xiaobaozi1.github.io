@@ -1,0 +1,50 @@
+body{
+    padding-left: 0;
+    padding-top:0;
+    padding-bottom:0;
+    margin-left: 0;
+    /* margin-right:0;
+    padding-right:0; */
+}
+/* .container{
+    padding-left:0;
+    margin-left:0;
+    margin-right: 0;
+    padding-right: 0;
+} */
+
+.headerimage{
+    width:100%
+}
+
+.logoweb{
+    height: 40px;
+    width:40px;
+}
+
+#navig{
+    background-color: #664D52
+}
+
+.row{
+    background-color: aqua;
+}
+
+.text-area-left{
+    text-align: left;
+}
+
+.nav-item:hover{
+    color:white
+}
+.nav-item{
+    color:#C2C2C3
+
+}
+
+.nav-link{
+    color:#C2C2C3
+}
+.nav-link:hover{
+    color:white;
+}
