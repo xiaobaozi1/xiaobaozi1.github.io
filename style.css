@@ -18,6 +18,8 @@ body{
 .phone{
     padding:0 0 0 0;
     overflow:hidden;
+    .hidden-xs
+    .hidden-sm
 }
 
 .bounce {
