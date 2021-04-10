@@ -1,16 +1,23 @@
-body{
+body, html{
     padding:0 0 0 0;
-    margin-left: 0;
+    
     background-color: #050A30;
 }
+
+
+
+
 
 .header{
     padding:0 0 0 0;
 }
 .header-row{
     padding:0 0 0 0;
-   
+    margin:0 0 0 0;
+    /* width:100%; */
 }
+
+/* images */
 .logo{
     padding:2% 0 0 0;
     overflow:hidden;
@@ -18,10 +25,19 @@ body{
 .phone{
     padding:0 0 0 0;
     overflow:hidden;
-    .hidden-xs
-    .hidden-sm
+
+}
+.phones{
+
+    overflow-y:hidden;
 }
 
+
+
+
+
+
+/* animations */
 .bounce {
     animation: bounce 2s;
   }
@@ -39,6 +55,7 @@ body{
   }
 
 
-.bg-blue{
+  /* navbar */
+  .bg-blue{
     background-color:#253439
 }
