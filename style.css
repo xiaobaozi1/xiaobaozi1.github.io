@@ -9,7 +9,7 @@ body, html{
 
 
 .header{
-    padding:0 0 0 0;
+    padding:0 0 3% 0;
 }
 .header-row{
     padding:0 0 0 0;
@@ -57,5 +57,72 @@ body, html{
 
   /* navbar */
   .bg-blue{
-    background-color:#253439
+    background-color:#253439;
+}
+
+
+
+.top-text{
+  color:white;
+  padding-top:5%;
+  margin-left:11%;
+  margin-right:22%;
+}
+
+.top-text-sub{
+  color:gray;
+  margin-top:1%;
+  margin-left:11%;
+  font-size:24px;
+  margin-right:22%
+}
+
+
+.top-page{
+  padding-bottom:10%;
+}
+.about{
+  padding-top:5%;
+  background-color:white;
+  /* background-color:#253439; */
+  text-align:center;
+}
+
+.icon-about{
+  color:#050A30;
+  padding-bottom:2%;
+  padding-top:10%;
+}
+
+
+
+
+.BeforeScroll
+{
+  height: 100px; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  .
+  .
+  display: none;
+}
+
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+  height: 100px; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  .
+  .
+  display: block;
+}
+
+a{
+  color:#050A30;
+}
+a:visited{
+  color:#050A30;
+}
+a:hover{
+  color:#253439;
 }
