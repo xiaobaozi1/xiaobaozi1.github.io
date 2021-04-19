@@ -12,6 +12,7 @@ body, html{
     background-image: url("images/header-image.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
+    
     min-height:90%;
    
 }
@@ -19,14 +20,32 @@ body, html{
 
 
 .logo-image{
-    margin:7%;
-    min-height:40%;
+    display:block;
+    width:75%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:11%;
+
+    
+  
     
 }
+@media (min-width: 992px) {
+    .logo-image{
+        height:auto;
+        width: 44%;;
+        margin-left:4%;
+        padding-top:7%;
+        
+  }
+  }
 
 .logo{
 background-image: url("images/logo-new");
+
 animation:color-change 25s linear infinite;
+
 
 }
 
