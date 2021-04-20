@@ -49,8 +49,8 @@ body, html{
 @media (max-width: 768px) {
   .rain{
  
-    background-size: 140px;
-    animation: rain .4s linear infinite;
+    background-size: 200px;
+    animation: rain .5s linear infinite;
   }
 }
 .rain:before{
