@@ -49,7 +49,7 @@ body, html{
 @media (max-width: 768px) {
   .rain{
  
-    background-size: 200px;
+    background-size: 190px;
     animation: rain .4s linear infinite;
   }
 }
