@@ -50,7 +50,7 @@ body, html{
   .rain{
  
     background-size: 250px;
-    animation: rain .4s linear infinite;
+    animation: rain .5s linear infinite;
   }
 }
 .rain:before{
