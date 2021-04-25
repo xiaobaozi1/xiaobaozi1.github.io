@@ -55,7 +55,7 @@ h1{
     margin-right:auto;
     padding-top:11%;
 
-    
+    z-index:8;
   
     
 }
@@ -110,7 +110,7 @@ h1{
         width: 44%;;
         margin-left:4%;
         padding-top:7%;
-        
+        z-index:8;
   }
   .header{
     height:100%;
@@ -123,10 +123,10 @@ h1{
   
 
 .logo{
-background-image: url("images/logo-new");
+
 
 animation:color-change 25s linear infinite;
-
+z-index:8;
 
 }
 
@@ -327,12 +327,103 @@ animation:color-change 25s linear infinite;
 
 
   /* animation */
+
+
 .about{
-    padding-top:10%;
-    background-color:black;
+  position:absolute;
+  display: block;
+  margin-left: 15%;
+  margin-right: auto;
+    height:70%;
+    width:70%;
+    
+    margin-top:7.5%;
+    border-radius:40px;
+   z-index:0;
+   -webkit-font-smoothing: antialiased;
+
+
+   
+
+
+   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+   
+   background-color: rgba(255, 255, 255, .15);
+   
+   backdrop-filter: blur(8px);
+}
+
+@media (max-width: 768px) {
+  .about{
+    margin-top:45%;
+    height:65%;
+  }
 }
 
 
+
+.apps{
+  position:absolute;
+  display: block;
+  margin-left: 15%;
+  margin-right: auto;
+    height:70%;
+    width:70%;
+    
+    margin-top:7.5%;
+    border-radius:40px;
+   z-index:0;
+   -webkit-font-smoothing: antialiased;
+
+
+   
+
+
+   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+   
+   background-color: rgba(255, 255, 255, .15);
+   
+   backdrop-filter: blur(8px);
+}
+
+@media (max-width: 768px) {
+  .apps{
+    margin-top:45%;
+    height:65%;
+  }
+}
+
+
+.contact{
+  position:absolute;
+  display: block;
+  margin-left: 15%;
+  margin-right: auto;
+    height:70%;
+    width:70%;
+    
+    margin-top:7.5%;
+    border-radius:40px;
+   z-index:0;
+   -webkit-font-smoothing: antialiased;
+
+
+   
+
+
+   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+   
+   background-color: rgba(255, 255, 255, .15);
+   
+   backdrop-filter: blur(8px);
+}
+
+@media (max-width: 768px) {
+  .contact{
+    margin-top:45%;
+    height:65%;
+  }
+}
 
 
 
@@ -351,11 +442,14 @@ body, html {
   /* buttons */
  
   button {
-    background: none;
-    color: #bfd5e7;
+    background: rgba(254, 1, 154, .2);
+    color: white;
+    
     text-shadow: 1px 1px black;
-    border: 2px solid;
-    border-radius: 5px;
+    border: 5px solid;
+    border-color:whitesmoke;
+    border-radius: 3px;
+    /* box-shadow:1px 1px black; */
     font-size: 40px;
     padding: 5px 5 px;
     cursor: pointer;

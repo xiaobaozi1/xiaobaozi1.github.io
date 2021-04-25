@@ -7,22 +7,31 @@
     <title>Xiao Baozi - Mobile & web apps</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
 
 </head>
 <body>
-   
+
 
     <div class = "header">
+
+   
+      <div class="about" id="about-section" style="display:none"></div>
+      <div class="apps" id="apps-section" style="display:none"></div>
+      <div class="contact" id="contact-section" style="display:none"></div>
+
         <div class="rain">
+          
+
           <div class="wrapper-cta-image">
         <div class="logo">
     <img src="images/logo-new.png" alt="" class="logo-image bounce">
 
     </div>
     <div class="cta bounce" >
-      <h1>Visit our Playstore to see our apps.<h1><a href="http://google.com"><button type="button"> Google Play  <i class="fab fa-google-play"></i></button></a>  
+      <h1>Visit our Playstore to see our apps.<h1><a href="https://play.google.com/store/apps/dev?id=5062318480701157405"><button type="button"> Google Play  <i class="fab fa-google-play"></i></button></a>  
         
      
     
@@ -43,19 +52,22 @@
 
     <nav role="navigation">
         <div id="menuToggle">
-          <input type="checkbox" />
+          <input id="checkbox" type="checkbox" />
           <span></span>
           <span></span>
           <span></span>
           <ul id="menu">
-            <a href="#Header"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Apps</li></a>
-            <a href="#"><li>Contact</li></a>
+          
+            <a href="#" id="home"><li>Home</li></a>
+            
+            
+            <a href="#" id="about"><li>About</li></a>
+            
+            <a href="#" id="apps"><li>Apps</li></a>
+            <a href="#" id="contact"><li>Contact</li></a>
           </ul>
         </div>
       </nav>
-
 
 
 </body>
