@@ -29,6 +29,7 @@ cta{
 h1{
   margin-left:12%;
   color: #bfd5e7;
+  
   width:22%;
 }
 
@@ -39,7 +40,9 @@ h1{
     width:50%;
   }
 }
-
+.fab{
+  color:#9fd7e9;
+}
 .fab:hover{
   color:#ff0fa3;
 }
@@ -294,7 +297,11 @@ animation:color-change 25s linear infinite;
     
     backdrop-filter: blur(5px);
   }
-  
+
+  @media (max-width: 768px) {
+    #menu{
+    width:150px;}
+  }
   #menu li
   {
     padding: 10px 0;
@@ -306,7 +313,10 @@ animation:color-change 25s linear infinite;
   {
     transform:translateX(-1000px);
   }
-
+  @media (max-width: 768px) {
+    #menuToggle input:checked ~ ul{
+      transform:translateX(-850px);}
+  }
 
 
 
