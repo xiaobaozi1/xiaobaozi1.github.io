@@ -29,7 +29,7 @@ cta{
 h1{
   margin-left:12%;
   color: #bfd5e7;
-  
+  padding-bottom:0.2%;
   width:22%;
 }
 
@@ -40,9 +40,9 @@ h1{
     width:50%;
   }
 }
-.fab{
+/* .fab{
   color:#9fd7e9;
-}
+} */
 .fab:hover{
   color:#ff0fa3;
 }
@@ -341,5 +341,45 @@ body, html {
     height: 100%;
   }
   
+
+
+
+
+
+
+
+  /* buttons */
  
+  button {
+    background: none;
+    color: #bfd5e7;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 40px;
+    padding: 5px 5 px;
+    cursor: pointer;
+    transition: transform 0.25s;
+  }
+
+  /* @media (max-width: 768px){
+    button{
+      fo
+      padding: 3px 3px;
+    }
+  } */
+  
+  button:hover {
+    border-color: #ff0fa3;
+    color: #fff1e6;
+    box-shadow: 0 0.5em 0.5em -0.4em #ff0fa3;
+    transform: translateY(-0.25em);
+  }
+  
+  button:active {
+    box-shadow: 2px 2px 1em #ff0fa3;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
   
