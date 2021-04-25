@@ -21,8 +21,28 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover; */
 }
+cta{
+  padding-left:11%;
+  z-index:1;
+  width:5%;
+}
+h1{
+  margin-left:12%;
+  color: #bfd5e7;
+  width:22%;
+}
 
+@media (max-width: 768px){
+  h1{
+    margin-top:0;
+    padding-left:8%;
+    width:50%;
+  }
+}
 
+.fab:hover{
+  color:#ff0fa3;
+}
 
 .logo-image{
     display:block;
@@ -44,7 +64,7 @@ body, html{
     background-image: url("images/rain.png");
   
     animation: rain .3s linear infinite;
-    
+    z-index: -1;
 }
 @media (max-width: 768px) {
   .rain{
@@ -61,7 +81,7 @@ body, html{
     background: #fff;
     animation: lightning 5s linear infinite;
     opacity:0;
-
+    z-index:-1;
 }
 
 @keyframes rain{
