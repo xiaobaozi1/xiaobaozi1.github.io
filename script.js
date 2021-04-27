@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#home").click(function(){
         if  ($("#apps-section").toggle(true)){
             $("#apps-section").toggle()}
-    if  ($("#contact-section").toggle(true)){
+        if  ($("#contact-section").toggle(true)){
             $("#contact-section").toggle()
     }
     if  ($("#about-section").toggle(true)){
@@ -11,11 +11,11 @@ $(document).ready(function(){
 
 
     $("#about").click(function(){
-
-        //  $("#a").toggle();
         $("#checkbox").click();
 
          $("#about-section").toggle();
+         $("#about-section2").toggle();
+         $("#about-section3").toggle();
         if  ($("#apps-section").toggle(true)){
                 $("#apps-section").toggle()}
         if  ($("#contact-section").toggle(true)){
@@ -25,8 +25,6 @@ $(document).ready(function(){
 
 
      $("#apps").click(function(){
-
-        //  $("#a").toggle();
         $("#checkbox").click();
 
          $("#apps-section").toggle();
@@ -37,8 +35,6 @@ $(document).ready(function(){
      }});
 
      $("#contact").click(function(){
-
-        //  $("#a").toggle();
         $("#checkbox").click();
 
          $("#contact-section").toggle();

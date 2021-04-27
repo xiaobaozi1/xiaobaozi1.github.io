@@ -478,3 +478,62 @@ body, html {
     outline: 0;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+  .about-header{
+    position:absolute;
+  display: block;
+  font-size:4vw;
+  margin-left: 50%;
+  margin-right: auto;
+   
+    color:#bfd5e7;
+    margin-top:4.5%;
+    
+   z-index:0;
+  }
+  @media (max-width: 768px) {
+    .about-header{
+      font-size:10vw;
+      margin-left:30.25%;;
+      margin-right:auto;
+      
+    }
+  }
+  
+
+
+  .about-sub{
+    position:absolute;
+  display: block;
+  font-size:1.5vw;
+  margin-left: 50%;
+  margin-right: 17.5%;
+   color:white;
+   text-shadow: 1px 1px black;
+    
+    margin-top:12.5%;
+    
+   z-index:0;
+   line-height:1.8vw;
+  }
+
+
+  @media (max-width: 768px) {
+    .about-sub{
+      font-size:5.5vw;
+      line-height:6vw;
+      margin-left:20%;
+      margin-right:17.5%;
+      margin-top:20.5%;
+    }
+  }
