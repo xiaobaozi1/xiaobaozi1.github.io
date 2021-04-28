@@ -12,7 +12,7 @@ body, html{
     background-image: url("images/header-image.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
-    
+
     min-height:100%;
    
 
@@ -53,7 +53,7 @@ h1{
     height:auto;
     margin-left:auto;
     margin-right:auto;
-    padding-top:11%;
+    padding-top:6%;
 
     z-index:8;
   
@@ -331,12 +331,13 @@ z-index:8;
 
 .about{
   position:absolute;
-  display: block;
+  display:flex;
+  
   margin-left: 15%;
   margin-right: auto;
     height:70%;
     width:70%;
-    
+    max-height:70%;
     margin-top:7.5%;
     border-radius:40px;
    z-index:0;
@@ -355,8 +356,9 @@ z-index:8;
 
 @media (max-width: 768px) {
   .about{
-    margin-top:45%;
+    margin-top:40%;
     height:65%;
+    overflow-y:hidden;
   }
 }
 
@@ -388,7 +390,7 @@ z-index:8;
 
 @media (max-width: 768px) {
   .apps{
-    margin-top:45%;
+    margin-top:40%;
     height:65%;
   }
 }
@@ -420,7 +422,7 @@ z-index:8;
 
 @media (max-width: 768px) {
   .contact{
-    margin-top:45%;
+    margin-top:40%;
     height:65%;
   }
 }
@@ -515,7 +517,8 @@ body, html {
   .about-sub{
     position:absolute;
   display: block;
-  font-size:1.5vw;
+  /* font-size:1.5vw; */
+  font-size:150%;
   margin-left: 50%;
   margin-right: 17.5%;
    color:white;
@@ -524,16 +527,28 @@ body, html {
     margin-top:12.5%;
     
    z-index:0;
-   line-height:1.8vw;
+   line-height:160%;
   }
-
+  @media (max-width: 950px){
+    .about-sub{
+    font-size:115%;
+  }
+}
 
   @media (max-width: 768px) {
     .about-sub{
-      font-size:5.5vw;
+      font-size:20px;
       line-height:6vw;
       margin-left:20%;
-      margin-right:17.5%;
+      margin-right:13.5%;
       margin-top:20.5%;
+      /* word-wrap: break-word;
+      white-space: nowrap;
+      
+      text-overflow: ellipsis;  */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
     }
   }
